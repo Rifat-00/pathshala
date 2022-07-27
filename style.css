@@ -1,0 +1,32 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* ...... */
+
+*, *:after, *:before{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-family: "Bebas Neue", cursive;
+    
+}
+
+.hero{
+    padding-top: 3.5rem;
+}
+
+.carousel_box{
+    background: black;
+    overflow: hidden;
+}
+
+.carousel_img{
+   object-fit: cover;  
+   opacity: 0.4;
+}
+
+.carousel-caption{
+   
+   padding-bottom: 5rem;
+}
