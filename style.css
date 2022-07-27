@@ -30,3 +30,9 @@
    
    padding-bottom: 5rem;
 }
+
+.course_btn{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
