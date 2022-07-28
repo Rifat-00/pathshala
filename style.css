@@ -7,8 +7,12 @@
     -moz-box-sizing: border-box;
 }
 
+body{
+    margin: 0;
+}
+
 .navbar{
-    background: rgb(224, 218, 218);
+    background: #fff;
 }
 
 .navbar-brand{
@@ -30,10 +34,7 @@
    opacity: 0.4;
 }
 
-.carousel-caption{
-   
-   padding-bottom: 5rem;
-}
+
 
 .course_btn{
     position: absolute;
@@ -70,4 +71,25 @@
 
 .star_icon{
     color: #FFD700;
+}
+
+.footer{
+    background: #000000;
+}
+
+@media screen and (max-width:768px) {
+    .card-body{
+       padding: 3rem;
+    }
+
+    /* .carousel-caption{
+        width: 50%;
+        margin-right: auto;
+        margin-left: auto;
+    } */
+
+    
+    .carousel-caption p{
+        display: none;
+    }
 }
