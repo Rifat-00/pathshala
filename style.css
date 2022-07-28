@@ -7,6 +7,10 @@
     -moz-box-sizing: border-box;
 }
 
+.navbar{
+    background: #fff;
+}
+
 .navbar-brand{
     font-family: "Bebas Neue", cursive;
     
@@ -35,4 +39,16 @@
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.explorer{
+    margin-top: 150px;
+}
+.explore_text{
+   padding: 3rem 2rem;
+  
+}
+
+.explore_box{
+    background: #F4FAFD;
 }
